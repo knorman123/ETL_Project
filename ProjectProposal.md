@@ -1,16 +1,16 @@
-### Project Proposal
+# Project Proposal
 
 ## Sources of data to extract from
 - Wine reviews-https://www.kaggle.com/codebreaker619/alcohol-comsumption-around-the-world
 - Alcohol consumption-https://www.kaggle.com/zynicide/wine-reviews
 ## Type of transformation needed for this data
-# Wine Reviews json-
+### Wine Reviews json-
 - Remove rows of missing data, look at country, type of wine/variety, points, price,
 - Check for duplicates
 - Joining both data sets using country
 - Final production database will be load into PostgreSQL-relational database
 - Two tables-one is all inclusive and another is top x
-# Alcohol Consumption csv-
+### Alcohol Consumption csv-
 - Look at country and wine servings, remove other columns
 - Check for duplicates
 ## Create new database and tables in PostgreSQL
