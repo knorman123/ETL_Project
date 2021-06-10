@@ -14,12 +14,14 @@ We used [quickdatabasediagrams.com](https://www.quickdatabasediagrams.com) to pu
 
 
 
-### Extract: The first thing we did was import our data into our Jupyter notebook. These can be found in the Resources folder:
+### Extract: 
+The first thing we did was import our data into our Jupyter notebook. These can be found in the Resources folder
 1. winemag-data-130k-v2.json - [source: kaggle.com](https://www.kaggle.com/zynicide/wine-reviews)
 2. alcohol_consumption.csv - [source: kaggle.com](https://www.kaggle.com/codebreaker619/alcohol-comsumption-around-the-world)
 
 
-### Transform: Next we used pandas to clean and transform our data
+### Transform: 
+Next we used pandas to clean and transform our data (see [transform.ipynb](transform.ipynb))
 
 1. Wine Reviews:
 - used json resource to create our wine review DataFrame
@@ -40,7 +42,8 @@ We used [quickdatabasediagrams.com](https://www.quickdatabasediagrams.com) to pu
 - the normalized data referenced wine_id as a foreign key 
 
 
-### Load: We used pandas to load our data into the blank tables created in pgAdmin
+### Load: 
+We used pandas to load our data into the blank tables created in pgAdmin
 * After all the tables were populated, we created a view to look at all the data together. 
 ![wine_view](Pictures/wine_view_sql.jpg)
 
