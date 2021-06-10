@@ -4,10 +4,13 @@ Project 2: ETL Challenge
 
 This project was completed by Arianne, Samantha, and Kimberly.
 
-
+#### Background
+We built this database for our client to be able to analyze wine reviews in relation to the country of origin. They also requested to look at the varieties in terms of highest ratings and alcohol consumption by country.
+In order to make sure their investment is profitable, they wanted to look at wine consumption in relation to country as well as price.
+- We chose to use SQL in order to utilize a structured database.
 
 We used [quickdatabasediagrams.com](https://www.quickdatabasediagrams.com) to put together our schemata
-![wine_db](Pictures/Wine DB Diagram.JPG) 
+![wine_db](Pictures/Wine_DB_Diagram.JPG) 
 
 
 
@@ -33,8 +36,14 @@ We used [quickdatabasediagrams.com](https://www.quickdatabasediagrams.com) to pu
 
 3. Merged DataFrames
 - merged our DataFrames using an inner join on country 
-- added wine_id to be used as the primary key in our tables
+- added wine_id to be used as the primary key for our wine table that held the combined data
+- the normalized data referenced wine_id as a foreign key 
 
 
 ### Load: We used pandas to load our data into the blank tables created in pgAdmin
-![wine_points](Pictures/Wine_points_table_sql.jpg)
+* After all the tables were populated, we created a view to look at all the data together. 
+![wine_view](Pictures/wine_view_sql.jpg)
+
+
+* See [Pictures](Pictures) for more table screenshots.
+* Reference our SQL database [here](SQL)
